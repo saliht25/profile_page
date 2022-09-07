@@ -1,0 +1,159 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+#main-container {
+    width: 90%;
+    height: 90%;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container-1 {
+    width: 30%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle {
+    width: 80%;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: deeppink;
+    background-color: aquamarine;
+}
+
+.rectangle:hover {
+    background-color: yellow;
+}
+
+#container-2 {
+    width: 68%;
+    height: 90%;
+    display: flex;
+}
+
+.question {
+    width: 30%;
+    height: 100%;
+}
+
+.information {
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+.answer {
+    width: 70%;
+    height: 100%;
+}
+
+.box {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.educations {
+    display: flex;
+    flex-direction: column;
+}
+
+.education {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.language {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+}
+
+.hobby {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    body{
+        background-color: aliceblue;
+    }
+
+    #main-container {
+        background-color: aquamarine;
+    }
+
+    #container-2 {
+        display: none;
+    }
+
+    img {
+        height: 250px;
+        border-radius: 0ch;
+    }
+
+    .rectangle{
+        background-color: blueviolet;
+        margin-left: 140px;
+    }
+
+    #container-1{
+        margin-right: 250px;
+    }
+    .rectangle:hover {
+        background-color: lightcoral;
+    }
+    .question {
+       font-size: 3em;
+    }
+}
